@@ -36,6 +36,7 @@ namespace ComplexNumbers
             Console.WriteLine();
             Complex result2 = c1.Minus(c2);
             Console.WriteLine($"Result. Real={result2.Real}; Imaginary={result2.Imaginary}");
+            Console.ReadLine();
         }
     }
 }
